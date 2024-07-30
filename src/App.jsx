@@ -11,6 +11,19 @@ function App() {
 
   // console.log(auth)
 
+  // Effect
+  // const [ auth, setAuth ] = useState(false)
+
+  // useEffect(() => {
+  //   if(auth) {
+  //     console.log('Autenticado')
+  //   }
+  // }, [auth])
+
+  // setTimeout(() => {
+  //   setAuth(true)
+  // }, 3000);
+
   return (
     <>
       <Header />
